@@ -1,0 +1,107 @@
+child(X,Y) :- parent(Y,X).
+spouse(X,Y) :- child(P,X), child(P,Y).
+husband(X,Y) :- male(X), spouse(X,Y).
+wife(X,Y) :- female(X), spouse(X,Y).
+son(X,Y) :- male(X), child(X,Y).
+daughter(X,Y) :- female(X), child(X,Y).
+mother(X,Y) :- female(X), parent(X,Y).
+father(X,Y) :- male(X), parent(X,Y).
+sibling(X,Y) :- parent(P,X), parent(P,Y), X\=Y.
+brother(X,Y) :- male(X), sibling(X,Y).
+sister(X,Y) :- female(X), sibling(X,Y).
+grandmother(X,Y) :- mother(X,P), parent(P,Y).
+grandfather(X,Y) :- father(X,P), parent(P,Y).
+grandson(X,Y) :- son(X,P), parent(Y,P).
+granddaughter(X,Y) :- daughter(X,P), parent(Y,P).
+aunt(X,Y) :- sister(X,P), parent(P,Y).
+aunt(X,Y) :- wife(X,P), sibling(P,Q), parent(Q,Y).
+uncle(X,Y) :- brother(X,P), parent(P,Y).
+uncle(X,Y) :- husband(X,P), sibling(P,Q), parent(Q,Y).
+niece(X,Y) :- daughter(X,P), sibling(P,Y).
+niece(X,Y) :- daughter(X,P), sibling(P,Q), spouse(Q,Y).
+nephew(X,Y) :- son(X,P), sibling(P,Y).
+nephew(X,Y) :- son(X,P), sibling(P,Q), spouse(Q,Y).
+cousin(X,Y) :- parent(P,X), sibling(P,Q), parent(Q,Y).
+matGrandma(X,Y) :- mother(X,P), mother(P,Y).
+patGrandma(X,Y) :- mother(X,P), father(P,Y).
+matGrandpa(X,Y) :- father(X,P), mother(P,Y).
+patGrandpa(X,Y) :- father(X,P), father(P,Y).
+
+male(shamim).
+male(Fardin).
+male(sumon).
+male(sabbir).
+male(Rafi).
+male(Saiful).
+male(mamun).
+male(Rifat).
+male(Ashik).
+male(Rubel).
+male(Mahir).
+male(Nazir).
+male(Rakib).
+male(Mehedi).
+
+female(Salma Akhter).
+female(Shammi Akhtar).
+female(Akhi Alamgir).
+female(Shusmita).
+female(Anjuman Ara).
+female(Ferdous Ara).
+female(Sharmin).
+female(Rodela).
+female(Saba).
+female(Sanjana).
+female(Moriom).
+female(tanha).
+female(sally).
+female(Afroza).
+female(sabrina).
+female(Muntaha).
+female(farzana).
+
+parent(mamun,shamim).
+parent(mamun,Fardin).
+parent(mamun,Salma Akhter).
+parent(Rifat,sabbir).
+parent(Ashik,sumon).
+parent(Ashik,Shammi Akhtar).
+parent(Ashik,Akhi Alamgir).
+parent(Ashik,Shusmita).
+parent(Ashik,Anjuman Ara).
+parent(Rubel,Rafi).
+parent(Rubel,Saiful).
+parent(Rubel,Ferdous Ara).
+parent(Rubel,Sharmin).
+parent(Nazir,Rodela).
+parent(Nazir,Saba).
+parent(Rakib,mamun).
+parent(Rakib,Rifat).
+parent(Rakib,Ashik).
+parent(Mehedi,Sanjana).
+parent(Mehedi,Rubel).
+parent(Mehedi,Mahir).
+parent(Mehedi,Moriom).
+
+parent(Sanjana,shamim).
+parent(Sanjana,Fardin).
+parent(Sanjana,Salma Akhter).
+parent(tanha,sabbir).
+parent(sally,sumon).
+parent(sally,Shammi Akhtar).
+parent(sally,Akhi Alamgir).
+parent(sally,Shusmita).
+parent(sally,Anjuman Ara).
+parent(Afroza,Rafi).
+parent(Afroza,Saiful).
+parent(Afroza,Ferdous Ara).
+parent(Afroza,Sharmin).
+parent(Moriom,Rodela).
+parent(Moriom,Saba).
+parent(Muntaha,mamun).
+parent(Muntaha,Rifat).
+parent(Muntaha,Ashik).
+parent(farzana,Sanjana).
+parent(farzana,Rubel).
+parent(farzana,Mahir).
+parent(farzana,Moriom)

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style>
+.body{
+width: 1094px;border: 1px solid
+
+}
+.navbar{
+width: 100%;overflow: hidden;
+}
+.logo{
+float: left;width: 30%;height: 50px;border: 1px solid
+}
+
+.banner{
+float: left;width: 69.5%;height: 50px;border: 1px solid
+}
+.one{
+float: left;width: 50%
+}
+.one p{
+text-align: center; 
+}
+
+.menu ul{
+list-style: none;
+}
+
+.menu ul li{
+float: left;
+margin-left: 79px;
+}
+
+.menubar{
+width: 100%;border: 1px solid;height: 60px
+}
+
+.menubar ul{list-style: none;
+margin-top: 0px;
+margin-left: -35px;}
+.menubar ul li{float: left;
+width: 14%;
+border: 1px solid;
+height: 60px;text-align: center; }
+
+.maincontent{
+width: 100%;height: 300px;
+}
+.section1{
+width: 29%;
+float:left;
+border: 1px solid;
+height: 99%;
+text-align: center;
+}
+
+.section1 ul{
+list-style: none;margin-left: -39px;
+}
+
+.section1 ul li{border-bottom: 1px solid;
+padding-top: 38px;
+
+}
+
+.section2{
+float: left;border: 1px solid;width: 70.5%;height: 100%
+}
+.part_1{
+width: 97%;
+border: 1px solid;
+text-align: center;
+margin: 7px -3px 15px 10px;
+float: left;
+
+}
+
+.part_2{
+width: 60%;
+border: 1px solid;
+text-align: center;
+float: left;
+margin: 7px -3px 15px 10px;
+height: 100px;
+}
+
+.part_2 ul{list-style: none;}
+.part_2 ul li{float: left;margin-left: 60px}
+.part_3{
+width: 36%;
+border: 1px solid;
+text-align: center;
+float: left;
+margin: 7px -3px 15px 10px;
+height: 200px;
+}
+.part_3 ul{list-style: none;}
+.part_3 ul li{margin-top: 30px}
+.part_4{
+width: 60%;
+border: 1px solid;
+text-align: center;
+float: left;
+margin-top: -110px;
+margin-left: 10px;
+height: 100px;
+}
+
+.part_4 ul{list-style: none;}
+.part_4 ul li{float: left;margin-left: 60px}
+
+.footer{
+width: 100%;border: 1px solid;height: 70px;text-align: center;
+}
+
+.footer ul{list-style: none;
+margin-left: 251px;}
+.footer ul li{ float: left;
+margin-left: 152px;}
+.footer ul li img{margin-top: 15px}
+</style>
+</head>
+<body>
+
+<div class="body">
+<div class="navbar">
+<div class="logo">Logo</div>
+<div class="banner">
+<div class="one"><p>Online Electronic Shop</p></div>
+<div class="menu">
+<ul>
+<li><a href="">LoGIN</a></li>
+<li><a href="">Register</a></li>
+
+</ul>
+</div>
+</div>
+</div>
+
+<div class="menubar">
+<ul>
+<li>Home</li>
+<li>Support</li>
+<li>Spcial Offer</li>
+<li>Tutorials</li>
+<li>My Account</li>
+<li>Contact Us</li>
+<li>Faq</li>
+</ul>
+</div>
+
+<div class="maincontent">
+
+<div class="section1">
+<p>Shop By Category</p><hr>
+<ul>
+<li>A</li>
+<li>B</li>
+<li>C</li>
+<li>D</li>
+</ul>
+</div>
+<div class="section2">
+<div class="part_1"><p>Search Box</p></div>
+<div class="part_2">
+<p>Featured Product</p>
+<ul>
+<li><img src="" alt="img1"></li>
+<li><img src="" alt="img2"></li>
+<li><img src="" alt="img3"></li>
+</ul>
+</div>
+<div class="part_3">
+<p>Importent Evemt</p>
+<ul>
+<li><a href="">Link1</a></li>
+<li><a href="">link2</a></li>
+<li><a href=""></a></li>
+</ul>
+</div>
+
+<div class="part_4">
+<p>Best Selling product</p>
+<ul>
+<li><img src="" alt="img1"></li>
+<li><img src="" alt="img2"></li>
+<li><img src="" alt="img3"></li>
+</ul>
+</div>
+
+<div></div>
+</div>
+
+</div>
+
+<div class="footer">
+<ul>
+<li><h4>Footer</h4></li>
+<li><img src="" alt="Facebook Logo"></li>
+<li><img src="" alt="linkdin logo"></li>
+</ul>
+</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,240 @@
+<!Doctype html>
+<html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Spring 2018</title>
+<style>
+
+.row{
+width: 95%;
+overflow: hidden;
+margin: 0px auto;
+}
+.col-1{
+width: 8.33%;
+float: left;
+}
+
+.col-2{
+
+width: 16.16%;
+float: left;
+}
+.col-3{
+width: 50%;
+float: left;
+}
+
+.side-nav div{
+
+display: black;
+padding: 25px;
+border: 1px solid #000000;
+text-align: center;
+
+}
+.add-link{
+
+width: 100%;
+text-align: center;
+border: 1px solid #000000;
+padding: 5px 0px;
+}
+
+.header-content{
+
+width: 100%;
+text-align: center;
+
+display: block;
+padding: 25px 0px;
+border: 1px solid #000000;
+
+}
+.faculty{
+width: 100%;
+border: 1px solid #000000;
+position: relative;
+height: 137px;
+}
+.faculty p{
+text-align: center;
+}
+.faculty ul{
+
+position: absolute;
+top: 25px;
+left:50%;
+margin-left:-40px;
+
+}
+
+.content-image {
+
+width: 100%;
+border:1px solid #000000;
+
+}
+
+.content-image img{
+
+width: 100%;
+
+}
+
+.content-text{
+
+width: 52.5%;
+padding: 57px;
+text-align: center;
+border: 1px solid #000000;
+}
+.nav ul{
+width: 100%;
+list-style: none;
+overflow: hidden;
+margin: 0px;
+padding: 0px;
+border: 1px solid #000000;
+}
+.nav ul li{
+
+width:32%;
+display: inline-block;
+border-left: 1px solid #000000;
+padding: 20px 0px;
+text-align: center;
+}
+footer{
+width: 75%;
+border: 1px solid #000000;
+padding: 10px 0px;
+text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="container">
+<div class="row">
+
+
+<div class="col-1">
+<div class="side-nav">
+<div>Student portal</div>
+<div>Career</div>
+<div>CDC</div>
+<div>Admin</div>
+</div>
+</div>
+
+
+<div class="col-2">
+<div class="content-image">
+<img src="diu.jpg" alt="Image">
+</div>
+<div class="content-text">
+Random text
+</div>
+</div>
+
+<div class="col-3">
+<div class="nav">
+<ul>
+
+<li> <a href="#">Home</a></li>
+<li> <a href="#">Admission</a></li>
+<li> <a href="#">Contact</a></li>
+</ul>
+
+</div>
+
+<div class="add-link">
+<a href="#">Quick Links</a>
+</div>
+
+<div class="header-content">
+Header Content
+</div>
+
+<div class="faculty">
+<p>Faculty Information</p>
+
+<ul>
+<li>CSE</li>
+<li>EEE</li>
+<li>CIS</li>
+<li>MCT</li>
+
+</ul>
+</div>
+
+</div>
+
+<footer>
+copyright &copy; 2018 daffodil International University. All Rights Reserved.
+</footer>
+
+</div>
+</div>
+</body>
+</html>
+
+*/Q-no-4(v)*/
+
+<!Doctype html>
+<html>
+<head>
+
+
+<title></title>
+<style>
+table, th, td{
+
+border: 1px solid black;
+
+padding: 15px;
+text-align: left;
+border-spacing: 5px;
+}
+
+</style>
+</head>
+
+<body>
+<table border="1">
+<caption>Spring 18</caption>
+
+<tr>
+<th>Name</th>
+<th>Acc No</th>
+<th>Savings for holiday!</th>
+
+</tr>
+<tr>
+<td>Ben</td>
+<td>150012</td>
+<td rowspan="2">$50</td>
+</tr>
+<tr>
+<td>Robert</td>
+<td>201254</td>
+
+</tr>
+<tr>
+<td>Jenifar</td>
+<td>515420</td>
+<td>$100</td>
+</tr>
+<tr>
+<td colspan="2">Enam</td>
+<td>$50</td>
+</tr>
+
+</table>
+</body>
+
+</html>

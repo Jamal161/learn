@@ -1,0 +1,66 @@
+div.content{
+	float: left;
+	margin: 0px;
+}
+
+div#first{
+	height:292px;
+	width:500px;
+}
+
+div#second{
+	background-color: #512E5F;
+	height: 292px;
+	width: 500px;
+	text-align: justify;
+
+
+}
+
+div#third{
+	background-color: #FFC300;
+	height: 292px;
+	width: 500px;
+}
+
+div#fourth{
+	background-color: #C70039;
+	height: 292px;
+	width: 500px;
+}
+
+div#fifth{
+	background-color: #900C3F;
+	height: 292px;
+	width: 500px;
+}
+
+div#sixth{
+	background-color: #0E6251;
+	height: 292px;
+	width: 500px;
+}
+
+div#seventh{
+	height: 292px;
+	width: 500px;
+}
+
+div#eighth{
+	background-color: #29E30B;
+	height: 292px;
+	width: 500px;
+}
+
+div#Nineteenth{
+	background-color: #0BC3E3;
+	height: 292px;
+	width: 500px;
+}
+
+div#Tenth{
+	background-color: #08279B;
+	height: 292px;
+	width: 500px;
+}
+
