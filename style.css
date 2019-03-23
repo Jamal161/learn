@@ -1,31 +1,51 @@
-#nav{
-  width:1000px;
-  margin:0 auto;
-}
-#nav ul{
-  list-style-type:none;
+body{
   margin: 0;
   padding: 0;
+  background: #3498db;
 }
-#nav ul li{
-  display: inline-block;
-  font-size: 1.1em;
-  padding: 12px;
-  background: yellow;
-  position:relative;
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) rotateX(70deg);
 }
-#nav ul li a{
-  text-decoration: none;
-  color: white;
-  padding: 12px;
+.ripple{
+  position: fixed;
+  top: 0;
+  transform: translateX(-50%);
+
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  animation: ripple 4s linear infinite;
 }
-#nav ul li:hover{
-     background: black;
+.r2{
+  animation-delay: 0.8s;
 }
-#nav ul li ul{
-  display:none;
-  position:absolute;
+.r3{
+  animation-delay: 1.6s;
 }
-#nav ul li:hover >ul{
-     display: block;
+.r4{
+  animation-delay: 2.4s;
+}
+.r5{
+  animation-delay: 3.2s;
+}
+.r6{
+  animation-delay: 4s;
+}
+
+@keyframes ripple {
+  from{
+    border: 4px solid #8e44ad;
+    background: #9b59b670;
+  }
+  to{
+    border: 0px solid #8e44ad;
+    background: #9b59b670;
+    width: 400px;
+    height: 400px;
+    top: 20px;
+    opacity: 0;
+  }
 }
